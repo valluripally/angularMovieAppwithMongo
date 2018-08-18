@@ -1,0 +1,44 @@
+
+<html>
+
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+      <script src="includes/js/modernizr-2.6.2.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/logo.png" alt="Movie-Club" height="100" width="200">
+    
+        </a>
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navi">
+              <li class="nav-list nav-item ">
+                <li class="nav-list nav-item ">
+                  <a routerLink="/home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-list nav-item ">
+                  <a routerLink="/wishlist" class=" nav-link" onclick=""> My WishList</a>
+                </li>
+                <!-- <li class="nav-list nav-item ">
+                  <a routerLink="/search" class="nav-link">Search</a>
+                </li> -->
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+      </body>
+      </html>
+
+<router-outlet></router-outlet>
